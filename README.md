@@ -78,10 +78,11 @@ When it came to most popular items startchy foods came out on top! However seafo
 
 
 The below visual shows if people prefer to buy lowfat, the numbers are very close and low fat items are popular, however regular items came out on top. 
+
 ![image](https://user-images.githubusercontent.com/119267803/216892559-7c0b18ef-8716-4ebf-8d15-2a55ddd20e6f.png)
 
 
-#### Maching Learning Using the Following Models:
+#### Machine Learning Using the Following Models:
 - Linear Regression Model
 - Decision Tree Regressor Model
 - Tuned DC Regressor Model
@@ -102,7 +103,7 @@ MSE: 1,191,253.3383
 RMSE: 1,091.4455 
 R2: 0.5682
 
-> Sentence about visualization.
+
 
 ## Decision Tree 
 Decision Tree Model Train Scores
@@ -156,27 +157,27 @@ MSE: 1,099,882.7305
 RMSE: 1,048.7529 
 R2: 0.6013
 
-The final chosen was Random Forest with the max _depth of 5
+The final  model chosen was Random Forest with the max _depth of 5
 
 For the testing the R2 was .62 on test and .60 on test with a variance or .02
 The MAE was off by .15
 The MSE by .12
 The RMSE was off by .06
-The Random forest model was the best firt for the data on hand, the other models were very prone to over fitting even with tuning, as well as had larger gaps in error. 
+The Random forest model was the best fit for the data on hand, the other models were very prone to over fitting even with tuning, as well as had larger gaps in error. 
 
 
 ## Recommendations:
 
 I think that looking at the data on hand, maybe a health food store would be a great new endevour for the comapny with how well more " healthy" items sell. 
-I also recommend we get more revelant data to visualize and predit sales, the other models ovetfitting so easily mad eme suspisious that there is not enought relevant data regarding sales in this data. 
+I also recommend we get more revelant data to visualize and predit sales, the other models ovetfitting so easily made me suspicious that there is not enough relevant data regarding sales in this data. 
 
 
 ## Limitations & Next Steps
 
-More of your own text here
+This is in the early steps of being hopefully a good model to look at for copany growth and expansion oppurtunities. 
 
 
 ### For further information
 
 
-For any additional questions, please contact **email**
+For any additional questions, please contact **efaonyianta@gmail.com**
