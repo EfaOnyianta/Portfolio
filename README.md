@@ -51,8 +51,9 @@ Item_Outlet_Sales:     | Sales of the product in the particular store. This is t
 
 ### To prepare this data it was inspected and cleaned and the following processes were executed:
 
-##Exploratory Data Analysis
-With the exploratory data analysis a histogram, boxplot and a heat map were used to visualize the data and try to see what trends were easioy visualized in the data.  
+## Exploratory Data Analysis
+
+With the exploratory data analysis, a histogram, boxplot and a heat map were used to visualize the data and try to see what trends were easioy visualized in the data.  
 
 
 ![image](https://user-images.githubusercontent.com/119267803/216891881-0810966e-5ed2-4fd1-a9af-91d34e3cd746.png)
@@ -169,12 +170,12 @@ The Random forest model was the best fit for the data on hand, the other models 
 ## Recommendations:
 
 I think that looking at the data on hand, maybe a health food store would be a great new endevour for the comapny with how well more " healthy" items sell. 
-I also recommend we get more revelant data to visualize and predit sales, the other models ovetfitting so easily made me suspicious that there is not enough relevant data regarding sales in this data. 
+I also recommend we get more revelant data to visualize and predit sales, the other models overfitting so easily made me suspicious that there is not enough relevant data regarding sales in this data. 
 
 
 ## Limitations & Next Steps
 
-This is in the early steps of being hopefully a good model to look at for copany growth and expansion oppurtunities. 
+This is in the early steps of being hopefully a good model to look at for company growth and expansion oppurtunities. 
 
 
 ### For further information
