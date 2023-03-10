@@ -8,7 +8,6 @@
 We will be analyzing current store stats can show us the trends we need to stay ahead of the trending curve and give the people what they want when it comes to grocery stores and grocery store items. As well as boost sales where needed. 
 
 
-Here is where you state the business problem you were trying to solve
 
 
 ### Data Source:
