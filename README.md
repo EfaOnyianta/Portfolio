@@ -104,6 +104,36 @@ RMSE: 1,091.4455
 R2: 0.5682
 
 
+### Linear reg coefficients were found and these are the findings
+
+![linear reg coeff model](https://github.com/EfaOnyianta/Sales-Prediction/assets/119267803/aead4778-ae24-45be-a35c-a02c201c037d)
+
+#### Interpretations
+Intercept baseline is 32.0000
+
+Coefficients that positively influenced sales
+items from outlet location type 2 increased sales(target) by 26,085,566,229,045,636.0000
+
+outlet identifier 046 increased sales by 17,071,672,556,909,728.0000
+
+items at Outlet_Location_Type_Tier 1 increased sales by 13,930,311,360,866,674.0000
+
+Outlet_Identifier_OUT049 increased sales by 13,606,551,902,381,064.0000
+
+Outlet_Identifier_OUT027 increased sales by 11,410,880,334,032,572.0000
+
+Outlet_Identifier_OUT019 increased sales by 10,763,474,688,825,006.0000
+
+neg impact coefficients
+items from Outlet_Type_Supermarket Type1 decreased sales by -16,562,415,776,203,718.0000
+
+items from Outlet_Size_Small decreased sales -12,610,372,813,980,082.0000
+
+items from Outlet_Type_Supermarket Type3 decreased sales by -10,600,180,468,797,778.0000
+
+items from Outlet_Type_Grocery Store also decreased sales by -10,254,217,908,120,908.0000 accoring to this model.
+
+
 
 ## Decision Tree 
 Decision Tree Model Train Scores
@@ -144,6 +174,17 @@ MAE: 763.3969
 MSE: 1,211,109.1273 
 RMSE: 1,100.5040 
 R2: 0.5610
+
+### Random forest important features were found, these are the findings
+![regression tree model feat imp](https://github.com/EfaOnyianta/Sales-Prediction/assets/119267803/2a24ab70-5995-47be-9cc5-19a6d435e77b)
+
+### the top 5 features are
+item type (breakfast)
+Item type bread
+Item weight
+Items with regular fat content
+items market retail price
+
 ## Random Forest tuned
 Random Forest Model Train Scores
 MAE: 742.1276 
