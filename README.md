@@ -185,6 +185,24 @@ Item weight
 Items with regular fat content
 items market retail price
 
+## Global explainations
+
+### Below are the Shap values for the random forest model and the values it predicted to be most impactful. 
+
+![shap model](https://github.com/EfaOnyianta/Sales-Prediction/assets/119267803/23d13cfa-2121-44a0-8ec3-bd3af65f1ff8)
+
+#### The features from shap vs feature importance my model are very different. They matched choosing Item mrp, item weight, and fat content regular but the importance/ impact is very different, for the shap values model item mrp is the most impactful vs on my feature importance model its the 5th most important. Item weight is the 6th most impactful in the shap values model but 3rd on my feature importance model. The also totally missed everything else. The feature importance model seems to have favored the categorical features more.
+
+#### A dot plot was made to interpret the type of impact these features had on prediction (iif impactful in a negaive or postitive way) 
+
+
+![shap dot plot](https://github.com/EfaOnyianta/Sales-Prediction/assets/119267803/89e35f22-ca12-4367-a81d-4c2a93eaae87)
+
+#### - For the first feature it seems with item mrp the higher it was it decreased sales. Vs the blue values were more to the left meaning that the mrp being lower increased sales 
+
+* For grocery store if grocery store == 1 (its a grocery store) the model predicts the sales seem to have improved/ better. if grocery store == 0 the sales werent decreased but the model thought they werent as good as it would if it was  a grocery store. 
+* Super market type 3 was predicted to have a negative impact on sales, it predicted sales were better when it was anything but market type 3== 0 and worse if it was == 1
+
 ## Random Forest tuned
 Random Forest Model Train Scores
 MAE: 742.1276 
