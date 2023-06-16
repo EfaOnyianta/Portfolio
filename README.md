@@ -202,6 +202,23 @@ items market retail price
 
 * For grocery store if grocery store == 1 (its a grocery store) the model predicts the sales seem to have improved/ better. if grocery store == 0 the sales werent decreased but the model thought they werent as good as it would if it was  a grocery store. 
 * Super market type 3 was predicted to have a negative impact on sales, it predicted sales were better when it was anything but market type 3== 0 and worse if it was == 1
+# Local explanations
+The features chosen were ITEM MRP and outlet size medium. Item mrp was deemed the most inflential feature, and i chose to interpret it to figure out why it is and what we should keep doing to keep up our sales and customers satisfied. And I wasnted to know what was making outlet size medium perform so poorly. What was going on there that were negatively influenceing sales so we can change them and implement better plans of action. 
+
+## ITEM MRP
+<img width="487" alt="ranfor force plot" src="https://github.com/EfaOnyianta/Sales-Prediction/assets/119267803/66c805e8-2a20-44a4-aac9-27f0416c96c4">
+<img width="482" alt="ran for lime" src="https://github.com/EfaOnyianta/Sales-Prediction/assets/119267803/61cc325b-b618-4c9e-a708-35fa03ec6084">
+
+### Observations/ interpretations
+ - So the force plot and LIME are in agreement with the 2 positively  influential features of sales, however the amount of influence is not, they actually switch the values, lime thinking grocery store was more influential to the positive infleuence on sales, vs The forceplot thought lower item MRP was. The lower the Item mrp was, the more it positively influenced sales. And the outlet type being a grocery store also influenced sales.
+
+<img width="482" alt="forceplot outlet med" src="https://github.com/EfaOnyianta/Sales-Prediction/assets/119267803/9cefe643-5108-4089-9b80-e5e4207214de">
+<img width="481" alt="lime outlet med" src="https://github.com/EfaOnyianta/Sales-Prediction/assets/119267803/c09de467-f641-4b27-948f-a981428465f6">
+
+### Observations 
+When using outlet size medium samples,
+outlet type supermarket type 3, outlet identifier 27 and a high mrp negatively influenced sales and is why outlet size medium was one of the least significant features since it correlated the most with these features tanking sales. Item MRP should stay in a range where its profitable to us, however low enough that customers will be influenced to buy.  It would also be useful to identify if phasing out type 3 markets would help, they dont seem to do well and having more stores open that arent doing well means we lose money. 
+
 
 ## Random Forest tuned
 Random Forest Model Train Scores
