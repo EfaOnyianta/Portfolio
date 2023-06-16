@@ -207,12 +207,16 @@ The features chosen were ITEM MRP and outlet size medium. Item mrp was deemed th
 
 ## ITEM MRP
 <img width="487" alt="ranfor force plot" src="https://github.com/EfaOnyianta/Sales-Prediction/assets/119267803/66c805e8-2a20-44a4-aac9-27f0416c96c4">
+
+
 <img width="482" alt="ran for lime" src="https://github.com/EfaOnyianta/Sales-Prediction/assets/119267803/61cc325b-b618-4c9e-a708-35fa03ec6084">
 
 ### Observations/ interpretations
  - So the force plot and LIME are in agreement with the 2 positively  influential features of sales, however the amount of influence is not, they actually switch the values, lime thinking grocery store was more influential to the positive infleuence on sales, vs The forceplot thought lower item MRP was. The lower the Item mrp was, the more it positively influenced sales. And the outlet type being a grocery store also influenced sales.
 
 <img width="482" alt="forceplot outlet med" src="https://github.com/EfaOnyianta/Sales-Prediction/assets/119267803/9cefe643-5108-4089-9b80-e5e4207214de">
+
+
 <img width="481" alt="lime outlet med" src="https://github.com/EfaOnyianta/Sales-Prediction/assets/119267803/c09de467-f641-4b27-948f-a981428465f6">
 
 ### Observations 
